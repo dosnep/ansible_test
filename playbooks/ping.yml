@@ -1,0 +1,8 @@
+# First Test
+---
+- hosts: test
+  tasks:
+    - name: ping servers
+      ping: 
+
+
