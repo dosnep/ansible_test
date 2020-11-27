@@ -1,0 +1,7 @@
+---
+- name: ping servers
+  ping: 
+
+- name : Description
+  debug:
+    msg:  "{{ description }}"

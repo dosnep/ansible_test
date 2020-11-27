@@ -1,0 +1,5 @@
+# First Test
+---
+- hosts: servers
+  roles:
+   - { role: demo, tags : [demo] }
